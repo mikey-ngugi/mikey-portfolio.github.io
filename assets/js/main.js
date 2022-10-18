@@ -227,8 +227,8 @@ app.contact = {
         alertify.log(msg2);
         var data = {
           service_id: "gmail",
-          template_id: "template_YeJhZkgb", // keys from email.js
-          user_id: "user_px78o72apVjzT28JpFXF7", // keys from email.js
+          template_id: "template_jwgywtc", // keys from email.js
+          user_id: "user_eOdU5cZndWw-Ed3dI", // keys from email.js
           template_params: {
             name: inputs["name"].value,
             subject: inputs["subject"].value,
@@ -287,8 +287,8 @@ function validateEmail(email) {
 
 function initMap() {
   // position we will use later
-  var lat = 44.96366;
-  var lon = 19.61045;
+  var lat = -1.286389;
+  var lon = 36.817223;
   // initialize map
   map = L.map("map").setView([lat, lon], 13);
   // set map tiles source
